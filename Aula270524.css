@@ -33,6 +33,7 @@ main{
     display: flex;
     height: 60vh;
 }
+
 #page {
     background-color:#ffc8dd;
     padding: 20px;
@@ -42,6 +43,7 @@ main{
     width: 73%;
     display: block;
 }
+
 #Article{
     background-color: #ffafcc;
     padding: 20px;
@@ -76,6 +78,7 @@ main{
     padding: 20px;
     border-radius: 20px;
 }
+
 footer {
     background: #fed9b7;
     color: #ffffff;
@@ -84,6 +87,7 @@ footer {
     border-radius: 20px;
     width: 98%;
 }
+
 footer p {
     font-size: 1.2em;
     font-family: 'Comic Sans MS', sans-serif;
