@@ -19,8 +19,8 @@ li{
 }
 
 nav {
-    color: #fee440;
-    background-color: #f15bb5;
+    color: #ffffff;
+    background-color: #cdb4db;
     text-decoration: none;
     font-size: 16pt;
     font-family:  Gill Sans, sans-serif;
@@ -36,7 +36,7 @@ main{
     height: 60vh;
 }
 #page {
-    background-color:#9b5de5;
+    background-color:#ffc8dd;
     padding: 20px;
     border-radius: 20px;
     margin: 20px;
@@ -45,7 +45,7 @@ main{
     display: block;
 }
 #Article{
-    background-color: #fee440;
+    background-color: #ffafcc;
     padding: 20px;
     border-radius: 20px;
     width: 20%;
@@ -54,7 +54,7 @@ main{
 }
 
 #Section {
-    background-color:#3a86ff;
+    background-color:#bde0fe;
     width: 92%;
     height: 34%;
     padding: 20px;
@@ -64,7 +64,7 @@ main{
 
 #popo {
     border-radius: 20px;
-    background-color: #3a86ff;
+    background-color: #a2d2ff;
     padding: 20px;
     margin: 20px 0px 0px 0px;
     height: 85%;
@@ -72,15 +72,15 @@ main{
 }
 
 #divisao {
-    background-color: #00f5d4;
+    background-color: #cbf3f0;
     width: 92%;
     height: 48%;
     padding: 20px;
     border-radius: 20px;
 }
 footer {
-    background: #6b2e5f;
-    color: #fff;
+    background: #fed9b7;
+    color: #ffffff;
     text-align: center;
     padding: 20px;
     border-radius: 20px;
