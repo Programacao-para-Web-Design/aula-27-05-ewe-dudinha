@@ -5,157 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    
-    <style>
-    header {
-            text-decoration: none;
-            font-size: 16pt;
-            font-family:  Gill Sans, sans-serif;
-        }
-        
-    img {
-            display: flex;
-            margin-right: 100px;
-            left: 50%;
-        }
+    <link rel="stylesheet" href="./Aula270524.css">
 
-    .nav {
-            color: #fee440;
-            background-color: #f15bb5;
-            text-decoration: none;
-            font-size: 16pt;
-            font-family:  Gill Sans, sans-serif;
-            padding: 20px;
-            border-top-left-radius: 10px;
-            border-top-right-radius: 10px;
-            position: static;
-            border-radius: 20px;
-        }
-        
-    .page {
-            background-color:#9b5de5;
-            padding: 20px;
-            text-align: left;
-            border-radius: 20px;
-            margin: 20px;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-        }
-         
-    .section{
-            color: #ffffff;
-            text-decoration: none;
-            font-size: 16pt;
-            font-family:  Gill Sans, sans-serif;   
-            padding: 20px;
-        }
-         
-    .article1{
-            color: #fee440;
-            background-color: #00f5d4;
-            text-decoration: none;
-            font-size: 16pt;
-            font-family:  Gill Sans, sans-serif;
-            padding: 20px;
-            border-top-left-radius: 20px;
-            border-top-right-radius: 20px;
-            position: static;
-        }
-
-     .article2{
-            color: #e63946;
-            background-color: #fee440;
-            text-decoration: none;
-            font-size: 16pt;
-            font-family:  Gill Sans, sans-serif;
-            padding: 20px;
-            border-top-left-radius: 20px;
-            border-top-right-radius: 20px;
-            position: flex;
-        }
-
-    .page2 {
-            background-color:#3a86ff;
-            position: relative;
-            padding: 20px;
-            text-align: left;
-            border-radius: 20px;
-            margin: 20px;
-        }
-
-    .aside1 {
-            color: #fdf0d5;
-            text-decoration: none;
-            font-size: 16pt;
-            font-family:  Gill Sans, sans-serif;      
-        }
-
-    .divisao {
-            width: 50%;
-            padding: 20px;
-            border-top-left-radius: 20px;
-            border-top-right-radius: 20px;
-    }
-
-    .aside2 {
-            display: flex;
-            color: #fdf0d5;
-            background-color: #fb5607;
-            text-decoration: none;
-            font-size: 16pt;
-            font-family:  Gill Sans, sans-serif; 
-            height: 20%;
-        }
-         
-    footer {
-            background: #6b2e5f;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-            border-top-left-radius: 20px;
-            border-top-right-radius: 20px;
-            position: static;
-            width: 100%;
-        }
-
-        footer p {
-            font-size: 1.2em;
-            font-family: 'Comic Sans MS', sans-serif;
-        }
-     </style>
     </head>
+
     <body>
-    <meta charset="UTF-8">
-    <header class="logo">
-            <img src="LogoEscola.png">  
+
+    <header>
+
+    <img src="LogoEscola.png">  
         
-    <nav id="nav">
-            <a href="#">Section</a>
-            <a href="#">Article</a>
-            <a href="#">Article</a>
-            <a href="#">Aside</a>
-            <a href="#">Aside</a>
+    <nav>
+        <ul>
+            <a href="#"><li>Section</li></a>
+            <a href="#"><li>Article</li></a>
+            <a href="#"><li>Article</li></a>
+            <a href="#"><li>Aside</li></a>
+            <a href="#"><li>Aside</li></a>
+        </ul>
     </nav>
         
     </header>
+
     <main>
-        <section class="page">
-                <h2 class="section">Section</h2> 
-                <h3 class="article1">Article</h3> 
-                <article class="divisao"> 
-                <h4 class="article2">Article</h4> 
-                <h5 class="aside2">Aside</h5>
-                </article>   
+        <section id="page">
+
+                <article id="divisao"> 
+                </article>
+
+                <article id="Section">
+
+                    <aside id="Article">
+                    </aside>
+
+                </article>  
+
         </section>
-        <article class="page2">
-            <h6 class="aside1">Aside</h6>
-        </article>
+
+        <aside id="Aside">
+        </aside>
         
     </main>
+
     <footer>
         <p>&copy; 2024 Ewelyn.Dudinha</p>
     </footer>
-    </body>
-</html>
 
+    </body>
+
+</html>
