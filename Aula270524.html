@@ -34,11 +34,13 @@
         
     .page {
             background-color:#9b5de5;
-            position: relative;
-            padding: 50px;
+            padding: 20px;
             text-align: left;
             border-radius: 20px;
             margin: 20px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
         }
          
     .section{
@@ -46,6 +48,7 @@
             text-decoration: none;
             font-size: 16pt;
             font-family:  Gill Sans, sans-serif;   
+            padding: 20px;
         }
          
     .article1{
@@ -60,7 +63,7 @@
             position: static;
         }
 
-         .article2{
+     .article2{
             color: #e63946;
             background-color: #fee440;
             text-decoration: none;
@@ -69,7 +72,7 @@
             padding: 20px;
             border-top-left-radius: 20px;
             border-top-right-radius: 20px;
-            position: static;
+            position: flex;
         }
 
     .page2 {
@@ -81,11 +84,28 @@
             margin: 20px;
         }
 
-    .aside {
+    .aside1 {
             color: #fdf0d5;
             text-decoration: none;
             font-size: 16pt;
             font-family:  Gill Sans, sans-serif;      
+        }
+
+    .divisao {
+            width: 50%;
+            padding: 20px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+    }
+
+    .aside2 {
+            display: flex;
+            color: #fdf0d5;
+            background-color: #fb5607;
+            text-decoration: none;
+            font-size: 16pt;
+            font-family:  Gill Sans, sans-serif; 
+            height: 20%;
         }
          
     footer {
@@ -121,15 +141,16 @@
     </header>
     <main>
         <section class="page">
-            <article id="art">
-                <h2 class="section">Section</h2>
-                <h3 class="article1">Article</h3>
-                <h4 class="article2">Article</h4>
-            </article>
+                <h2 class="section">Section</h2> 
+                <h3 class="article1">Article</h3> 
+                <article class="divisao"> 
+                <h4 class="article2">Article</h4> 
+                <h5 class="aside2">Aside</h5>
+                </article>   
         </section>
-        <aside class="page2"> 
-            <h6 class="aside">Aside</h6>
-        </aside>
+        <article class="page2">
+            <h6 class="aside1">Aside</h6>
+        </article>
         
     </main>
     <footer>
@@ -137,3 +158,4 @@
     </footer>
     </body>
 </html>
+
