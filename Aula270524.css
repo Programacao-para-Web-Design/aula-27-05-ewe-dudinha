@@ -20,7 +20,7 @@ li{
 
 nav {
     color: #ffffff;
-    background-color: #cdb4db;
+    background-color: #9381ff;
     text-decoration: none;
     font-size: 16pt;
     font-family:  Gill Sans, sans-serif;
@@ -35,7 +35,7 @@ main{
 }
 
 #page {
-    background-color: #ffc8dd;
+    background-color: #ef476f;
     padding: 20px;
     border-radius: 20px;
     margin: 20px;
@@ -45,7 +45,7 @@ main{
 }
 
 #Article{
-    background-color: #fcf6bd;
+    background-color: #0fa3b1;
     padding: 20px;
     border-radius: 20px;
     width: 20%;
@@ -54,7 +54,7 @@ main{
 }
 
 #Section {
-    background-color:#bde0fe;
+    background-color:#00a6fb;
     width: 92%;
     height: 34%;
     padding: 20px;
@@ -64,7 +64,7 @@ main{
 
 #popo {
     border-radius: 20px;
-    background-color: #a2d2ff;
+    background-color: #22577a;
     padding: 20px;
     margin: 20px 0px 0px 0px;
     height: 85%;
@@ -72,7 +72,7 @@ main{
 }
 
 #divisao {
-    background-color: #cbf3f0;
+    background-color: #7209b7;
     width: 92%;
     height: 48%;
     padding: 20px;
@@ -80,7 +80,7 @@ main{
 }
 
 footer {
-    background: #fed9b7;
+    background: #fee440;
     color: #ffffff;
     text-align: center;
     padding: 20px;
