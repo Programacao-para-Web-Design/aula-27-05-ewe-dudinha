@@ -68,7 +68,7 @@ main{
     background-color: #7209b7;
     padding: 20px;
     margin: 20px 0px 0px 0px;
-    height: 85%;
+    height: 95%;
     width: 20%;
 }
 
@@ -87,7 +87,7 @@ footer {
     padding: 20px;
     border-radius: 20px;
     width: 98%;
-    position: fixed;
+    position: block;
 }
 
 footer p {
