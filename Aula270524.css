@@ -57,7 +57,7 @@ main{
 #pipi {
     background-color:#00a6fb;
     width: 92%;
-    height: 20%;
+    height: 24%;
     padding: 20px;
     margin-top: 20px;
     border-radius: 20px;
@@ -75,7 +75,7 @@ main{
 #divisao {
     background-color: #22577a;
     width: 92%;
-    height: 48%;
+    height: 38%;
     padding: 20px;
     border-radius: 20px;
 }
