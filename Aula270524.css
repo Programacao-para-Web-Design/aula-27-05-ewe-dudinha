@@ -81,7 +81,7 @@ main{
 
 footer {
     text-align: center;
-    
+    position: flex;
 }
 
 footer p {
