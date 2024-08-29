@@ -50,7 +50,7 @@ main{
     border-radius: 20px;
     width: 20%;
     height: 40%;
-    margin: 10px 0px 20px 70px;
+    margin: 10px 0px 40px 70px;
     margin-left: 75%;
 }
 
@@ -60,6 +60,7 @@ main{
     height: 29%;
     padding: 20px;
     margin-top: 20px;
+    margin: 20px 0px 0px 0px;
     border-radius: 20px;
 }
 
