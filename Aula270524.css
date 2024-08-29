@@ -60,7 +60,6 @@ main{
     height: 29%;
     padding: 20px;
     margin-top: 20px;
-    margin: 20px 0px 0px 0px;
     border-radius: 20px;
 }
 
@@ -69,6 +68,7 @@ main{
     background-color: #7209b7;
     padding: 20px;
     height: 95%;
+    margin: 20px 0px 0px 0px;
     width: 20%;
 }
 
